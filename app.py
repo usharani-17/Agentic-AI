@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template_string,abort
 
 app = Flask(__name__)
 
-HTML = ""
+HTML = """
 <!DOCTYPE html>
 <html>
 <head>
